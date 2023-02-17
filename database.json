@@ -27,7 +27,24 @@
         { "id": 3, "address": "4190 Broadway, Nashville, TN", "sqFt": 4410 }
 
     ],
-    "products": [],
-    "productTypes": [],
-    "purchases": []
+    "products": [
+        { "id": 1, "name": "Butterfinger", "typeId": 1, "price": 180 },
+        { "id": 2, "name": "Twix", "typeId": 1, "price": 200 },
+        { "id": 3, "name": "Sour Patch Kids", "typeId": 3, "price": 240 },
+        { "id": 4, "name": "Crunch Bar", "typeId": 1, "price": 170 },
+        { "id": 5, "name": "Juicyfruit", "typeId": 4, "price": 120 },
+        { "id": 6, "name": "Nerds", "typeId": 2, "price": 300 },
+        { "id": 7, "name": "Bon Bons", "typeId": 3, "price": 150 },
+        { "id": 8, "name": "Orbit", "typeId": 4, "price": 120 }
+    ],
+    "productTypes": [
+        { "id": 1, "type": "chocolate bar" },
+        { "id": 2, "type": "hard candy" },
+        { "id": 3, "type": "gummy candy" },
+        { "id": 4, "type": "gum" }
+
+    ],
+    "purchases": [
+        { "id": 1, "customerId": 4, "locationId": 2, "productId": 4, "quantity": 2 }
+    ]
 }
