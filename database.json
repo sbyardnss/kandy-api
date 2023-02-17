@@ -1,0 +1,33 @@
+{
+    "users": [
+        { "id": 1, "name": "Stephen Byard", "email": "myemail@gmail.com", "staff": true },
+        { "id": 2, "name": "Greta Gerwig", "email": "greta@gerwig.com", "staff": false },
+        { "id": 3, "name": "Grover Cleveland", "email": "grover@cleveland.com", "staff": false },
+        { "id": 4, "name": "Phil Collins", "email": "phil@collins.com", "staff": true },
+        { "id": 5, "name": "Rita Hayworth", "email": "rita@hayworth.com", "staff": true },
+        { "id": 6, "name": "Billy Boy", "email": "bill@boy.com", "staff": false }
+    ],
+    "customers": [
+        { "id": 1, "userId": 1, "loyaltyNumber": 11111 },
+        { "id": 2, "userId": 2, "loyaltyNumber": 22222 },
+        { "id": 3, "userId": 3, "loyaltyNumber": 33333 },
+        { "id": 4, "userId": 4, "loyaltyNumber": 44444 },
+        { "id": 5, "userId": 5, "loyaltyNumber": 55555 },
+        { "id": 6, "userId": 6, "loyaltyNumber": 66666 },
+        { "id": 7, "userId": 7, "loyaltyNumber": 77777 }   
+    ],
+    "employees": [
+        { "id": 1, "userId": 1, "name": "Stephen Byard", "email": "myemail@gmail.com", "locationId": 1, "startDate": "February 17, 2022", "payRatePerHour": 100000 },
+        { "id": 1, "userId": 4, "name": "Phil Collins", "email": "phil@collins.com", "locationId": 3, "startDate": "March 12, 2020", "payRatePerHour": 2700 },
+        { "id": 1, "userId": 5, "name": "Rita Hayworth", "email": "rita@hayworth.com", "locationId": 2, "startDate": "November 4, 2018", "payRatePerHour": 3200 }
+    ],
+    "locations": [
+        { "id": 1, "address": "300 Any St, Nashville, TN", "sqFt": 820 },
+        { "id": 2, "address": "1108 Main St, Nashville, TN", "sqFt": 760 },
+        { "id": 3, "address": "4190 Broadway, Nashville, TN", "sqFt": 4410 }
+
+    ],
+    "products": [],
+    "productTypes": [],
+    "purchases": []
+}
