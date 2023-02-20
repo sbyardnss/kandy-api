@@ -28,14 +28,14 @@
 
     ],
     "products": [
-        { "id": 1, "name": "Butterfinger", "typeId": 1, "price": 180 },
-        { "id": 2, "name": "Twix", "typeId": 1, "price": 200 },
-        { "id": 3, "name": "Sour Patch Kids", "typeId": 3, "price": 240 },
-        { "id": 4, "name": "Crunch Bar", "typeId": 1, "price": 170 },
-        { "id": 5, "name": "Juicyfruit", "typeId": 4, "price": 120 },
-        { "id": 6, "name": "Nerds", "typeId": 2, "price": 300 },
-        { "id": 7, "name": "Bon Bons", "typeId": 3, "price": 150 },
-        { "id": 8, "name": "Orbit", "typeId": 4, "price": 120 }
+        { "id": 1, "name": "Butterfinger", "productTypeId": 1, "price": 180 },
+        { "id": 2, "name": "Twix", "productTypeId": 1, "price": 200 },
+        { "id": 3, "name": "Sour Patch Kids", "productTypeId": 3, "price": 240 },
+        { "id": 4, "name": "Crunch Bar", "productTypeId": 1, "price": 170 },
+        { "id": 5, "name": "Juicyfruit", "productTypeId": 4, "price": 120 },
+        { "id": 6, "name": "Nerds", "productTypeId": 2, "price": 300 },
+        { "id": 7, "name": "Bon Bons", "productTypeId": 3, "price": 150 },
+        { "id": 8, "name": "Orbit", "productTypeId": 4, "price": 120 }
     ],
     "productTypes": [
         { "id": 1, "type": "chocolate bar" },
