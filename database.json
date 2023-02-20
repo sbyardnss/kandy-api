@@ -1,11 +1,11 @@
 {
     "users": [
-        { "id": 1, "name": "Stephen Byard", "email": "myemail@gmail.com", "staff": true },
-        { "id": 2, "name": "Greta Gerwig", "email": "greta@gerwig.com", "staff": false },
-        { "id": 3, "name": "Grover Cleveland", "email": "grover@cleveland.com", "staff": false },
-        { "id": 4, "name": "Phil Collins", "email": "phil@collins.com", "staff": true },
-        { "id": 5, "name": "Rita Hayworth", "email": "rita@hayworth.com", "staff": true },
-        { "id": 6, "name": "Billy Boy", "email": "bill@boy.com", "staff": false }
+        { "id": 1, "name": "Stephen Byard", "email": "myemail@gmail.com", "isStaff": true },
+        { "id": 2, "name": "Greta Gerwig", "email": "greta@gerwig.com", "isStaff": false },
+        { "id": 3, "name": "Grover Cleveland", "email": "grover@cleveland.com", "isStaff": false },
+        { "id": 4, "name": "Phil Collins", "email": "phil@collins.com", "isStaff": true },
+        { "id": 5, "name": "Rita Hayworth", "email": "rita@hayworth.com", "isStaff": true },
+        { "id": 6, "name": "Billy Boy", "email": "bill@boy.com", "isStaff": false }
     ],
     "customers": [
         { "id": 1, "userId": 1, "loyaltyNumber": 11111 },
