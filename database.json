@@ -1,50 +1,272 @@
 {
-    "users": [
-        { "id": 1, "name": "Stephen Byard", "email": "myemail@gmail.com", "isStaff": true },
-        { "id": 2, "name": "Greta Gerwig", "email": "greta@gerwig.com", "isStaff": false },
-        { "id": 3, "name": "Grover Cleveland", "email": "grover@cleveland.com", "isStaff": false },
-        { "id": 4, "name": "Phil Collins", "email": "phil@collins.com", "isStaff": true },
-        { "id": 5, "name": "Rita Hayworth", "email": "rita@hayworth.com", "isStaff": true },
-        { "id": 6, "name": "Billy Boy", "email": "bill@boy.com", "isStaff": false }
-    ],
-    "customers": [
-        { "id": 1, "userId": 1, "loyaltyNumber": 11111 },
-        { "id": 2, "userId": 2, "loyaltyNumber": 22222 },
-        { "id": 3, "userId": 3, "loyaltyNumber": 33333 },
-        { "id": 4, "userId": 4, "loyaltyNumber": 44444 },
-        { "id": 5, "userId": 5, "loyaltyNumber": 55555 },
-        { "id": 6, "userId": 6, "loyaltyNumber": 66666 },
-        { "id": 7, "userId": 7, "loyaltyNumber": 77777 }   
-    ],
-    "employees": [
-        { "id": 1, "userId": 1, "name": "Stephen Byard", "email": "myemail@gmail.com", "locationId": 1, "startDate": "February 17, 2022", "payRatePerHour": 100000 },
-        { "id": 1, "userId": 4, "name": "Phil Collins", "email": "phil@collins.com", "locationId": 3, "startDate": "March 12, 2020", "payRatePerHour": 2700 },
-        { "id": 1, "userId": 5, "name": "Rita Hayworth", "email": "rita@hayworth.com", "locationId": 2, "startDate": "November 4, 2018", "payRatePerHour": 3200 }
-    ],
-    "locations": [
-        { "id": 1, "address": "300 Any St, Nashville, TN", "sqFt": 820 },
-        { "id": 2, "address": "1108 Main St, Nashville, TN", "sqFt": 760 },
-        { "id": 3, "address": "4190 Broadway, Nashville, TN", "sqFt": 4410 }
-
-    ],
-    "products": [
-        { "id": 1, "name": "Butterfinger", "productTypeId": 1, "price": 180 },
-        { "id": 2, "name": "Twix", "productTypeId": 1, "price": 200 },
-        { "id": 3, "name": "Sour Patch Kids", "productTypeId": 3, "price": 240 },
-        { "id": 4, "name": "Crunch Bar", "productTypeId": 1, "price": 170 },
-        { "id": 5, "name": "Juicyfruit", "productTypeId": 4, "price": 120 },
-        { "id": 6, "name": "Nerds", "productTypeId": 2, "price": 300 },
-        { "id": 7, "name": "Bon Bons", "productTypeId": 3, "price": 150 },
-        { "id": 8, "name": "Orbit", "productTypeId": 4, "price": 120 }
-    ],
-    "productTypes": [
-        { "id": 1, "type": "chocolate bar" },
-        { "id": 2, "type": "hard candy" },
-        { "id": 3, "type": "gummy candy" },
-        { "id": 4, "type": "gum" }
-
-    ],
-    "purchases": [
-        { "id": 1, "customerId": 4, "locationId": 2, "productId": 4, "quantity": 2 }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Stephen Byard",
+      "email": "myemail@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Greta Gerwig",
+      "email": "greta@gerwig.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Grover Cleveland",
+      "email": "grover@cleveland.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Phil Collins",
+      "email": "phil@collins.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "name": "Rita Hayworth",
+      "email": "rita@hayworth.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "name": "Billy Boy",
+      "email": "bill@boy.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "loyaltyNumber": 11111
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "loyaltyNumber": 22222
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "loyaltyNumber": 33333
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "loyaltyNumber": 44444
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "loyaltyNumber": 55555
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "loyaltyNumber": 66666
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "loyaltyNumber": 77777
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Stephen Byard",
+      "email": "myemail@gmail.com",
+      "locationId": 1,
+      "startDate": "February 17, 2022",
+      "payRatePerHour": 100000
+    },
+    {
+      "id": 1,
+      "userId": 4,
+      "name": "Phil Collins",
+      "email": "phil@collins.com",
+      "locationId": 3,
+      "startDate": "March 12, 2020",
+      "payRatePerHour": 2700
+    },
+    {
+      "id": 1,
+      "userId": 5,
+      "name": "Rita Hayworth",
+      "email": "rita@hayworth.com",
+      "locationId": 2,
+      "startDate": "November 4, 2018",
+      "payRatePerHour": 3200
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "300 Any St, Nashville, TN",
+      "sqFt": 820
+    },
+    {
+      "id": 2,
+      "address": "1108 Main St, Nashville, TN",
+      "sqFt": 760
+    },
+    {
+      "id": 3,
+      "address": "4190 Broadway, Nashville, TN",
+      "sqFt": 4410
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Butterfinger",
+      "productTypeId": 1,
+      "price": 180
+    },
+    {
+      "id": 2,
+      "name": "Twix",
+      "productTypeId": 1,
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "Sour Patch Kids",
+      "productTypeId": 3,
+      "price": 240
+    },
+    {
+      "id": 4,
+      "name": "Crunch Bar",
+      "productTypeId": 1,
+      "price": 170
+    },
+    {
+      "id": 5,
+      "name": "Juicyfruit",
+      "productTypeId": 4,
+      "price": 120
+    },
+    {
+      "id": 6,
+      "name": "Nerds",
+      "productTypeId": 2,
+      "price": 300
+    },
+    {
+      "id": 7,
+      "name": "Bon Bons",
+      "productTypeId": 3,
+      "price": 150
+    },
+    {
+      "id": 8,
+      "name": "Orbit",
+      "productTypeId": 4,
+      "price": 120
+    },
+    {
+      "name": "Reese's Cups",
+      "productTypeId": 1,
+      "price": 300,
+      "id": 9
+    }
+  ],
+  "locationProducts": [
+    { "id": 1,
+      "locationId": 1,
+      "productId": 2
+    },
+    { "id": 2,
+      "locationId": 1,
+      "productId": 3
+    },
+    { "id": 3,
+      "locationId": 1,
+      "productId": 4
+    },
+    { "id": 4,
+      "locationId": 2,
+      "productId": 7
+    },
+    { "id": 5,
+      "locationId": 2,
+      "productId": 8
+    },
+    { "id": 6,
+      "locationId": 2,
+      "productId": 2
+    },
+    { "id": 7,
+      "locationId": 2,
+      "productId": 5
+    },
+    { "id": 8,
+      "locationId": 2,
+      "productId": 9
+    },
+    { "id": 9,
+      "locationId": 2,
+      "productId": 6
+    },
+    { "id": 10,
+      "locationId": 2,
+      "productId": 8
+    },
+    { "id": 11,
+      "locationId": 3,
+      "productId": 2
+    },
+    { "id": 12,
+      "locationId": 3,
+      "productId": 1
+    },
+    { "id": 13,
+      "locationId": 3,
+      "productId": 4
+    },
+    { "id": 14,
+      "locationId": 3,
+      "productId": 6
+    },
+    { "id": 15,
+      "locationId": 3,
+      "productId": 7
+    },
+    { "id": 16,
+      "locationId": 3,
+      "productId": 9
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "chocolate bar"
+    },
+    {
+      "id": 2,
+      "type": "hard candy"
+    },
+    {
+      "id": 3,
+      "type": "gummy candy"
+    },
+    {
+      "id": 4,
+      "type": "gum"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 4,
+      "locationId": 2,
+      "productId": 4,
+      "quantity": 2
+    }
+  ]
 }
