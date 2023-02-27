@@ -39,7 +39,7 @@
     {
       "name": "bill anywho",
       "email": "bill@anywho.com",
-      "isStaff": true,
+      "isStaff": false,
       "id": 7
     },
     {
@@ -47,6 +47,12 @@
       "email": "martha@may.com",
       "isStaff": false,
       "id": 8
+    },
+    {
+      "id": 9,
+      "name": "boutros boutros gali",
+      "email": "boutrosSquared@gali.com",
+      "isStaff": false
     }
   ],
   "customers": [
@@ -98,15 +104,6 @@
       "locationId": 2,
       "startDate": "November 4, 2018",
       "payRatePerHour": 32
-    },
-    {
-      "name": "bill anywho",
-      "userId": 7,
-      "email": "bill@anywho.com",
-      "locationId": 3,
-      "startDate": "2023-03-11",
-      "payRatePerHour": 78.39,
-      "id": 4
     }
   ],
   "locations": [
