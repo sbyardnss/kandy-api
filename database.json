@@ -289,6 +289,24 @@
       "locationId": 2,
       "productId": 4,
       "quantity": 2
+    },
+    {
+      "customerId": 2,
+      "productId": 7,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "customerId": 2,
+      "productId": 1,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "customerId": 2,
+      "productId": 7,
+      "quantity": 1,
+      "id": 4
     }
   ]
 }
